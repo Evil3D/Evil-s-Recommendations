@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-900 text-white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Recommendations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans">
+    <header class="p-6 bg-gray-800 shadow-md">
+      <h1 class="text-3xl font-bold">My Recommendations</h1>
+      <nav class="mt-2 space-x-4">
+        <a href="#mc" class="hover:underline text-teal-400">Minecraft Mods</a>
+        <a href="#linux" class="hover:underline text-teal-400">Linux Stuffs, Apps</a>
+      </nav>
+    </header>
+
+    <main class="p-6 space-y-10">
+      <section id="mc">
+        <h2 class="text-2xl font-semibold mb-4">🧱 Minecraft Mods I Recommend</h2>
+        <ul class="space-y-3">
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://modrinth.com/mod/custom-client-brand" target="_blank" class="text-teal-400 hover:underline">
+                Custom Client Brand
+              </a>
+            </h3>
+            <p>Sometimes a funny mod for confusing staff, if they can see your client brand (e.g. the vulcan AC shows the player's brand upon join)</p>
+          </li>
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://modrinth.com/mod/modmenu" target="_blank" class="text-teal-400 hover:underline">
+                Mod Menu
+              </a>
+            </h3>
+            <p>Shows all of your installed mods. I think this is an essential for mostly everyone.</p>
+          </li>
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://modrinth.com/mod/modmenu" target="_blank" class="text-teal-400 hover:underline">
+                Litematica
+              </a>
+            </h3>
+            <p>Used to well build schematics, and there's a few addons to make the experience better.</p>
+          </li>
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://github.com/jellysquid3/sodium-fabric" target="_blank" class="text-teal-400 hover:underline">
+                Sodium
+              </a>
+              +
+              <a href="https://irisshaders.net/" target="_blank" class="text-teal-400 hover:underline">
+                Iris
+              </a>
+            </h3>
+            <p>Boost FPS and get shaders at the same time. 🔥</p>
+          </li>
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://modrinth.com/mod/xaeros-minimap" target="_blank" class="text-teal-400 hover:underline">
+                Xaero's Mini
+              </a>
+              +
+              <a href="https://modrinth.com/mod/xaeros-world-map" target="_blank" class="text-teal-400 hover:underline">
+                World Map
+              </a>
+            </h3>
+            <p>W Combo in my opinion, cause you have a minimap and a whole map with waypoints and other stuff. 🔥🔥</p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="linux">
+        <h2 class="text-2xl font-semibold mb-4">🐧 Linux Tools You Should Install</h2>
+        <ul class="space-y-3">
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://flameshot.org" target="_blank" class="text-teal-400 hover:underline">
+                Flameshot
+              </a>
+            </h3>
+            <p>Screenshotting software that to me feels alot like the windows snippet tool.</p>
+          </li>
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://sober.vinegarhq.org/#introducing-sober" target="_blank" class="text-teal-400 hover:underline">
+                Sober
+              </a>
+            </h3>
+            <p>Roblox but for linux.. 🔥🔥</p>
+          </li>
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://code.visualstudio.com" target="_blank" class="text-teal-400 hover:underline">
+                Visual Studio Code
+              </a>
+            </h3>
+            <p>Didn't even think this supported linux, very good text editor, and coding software.</p>
+          </li>
+          <li class="bg-gray-800 p-4 rounded-lg shadow">
+            <h3 class="font-bold text-lg">
+              <a href="https://xclicker.xyz" target="_blank" class="text-teal-400 hover:underline">
+                XClicker
+              </a>
+            </h3>
+            <p>OP Autoclicker but for linux.. 🔥🔥 (yes im going to continue this)</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="text-center text-sm text-gray-500 p-4">
+      © 2025 Made by Evil3D. Hosted on GitHub.
+    </footer>
+
+    <!-- 🔥 INVISIBLE HOVER TRIGGER -->
+<footer class="text-center text-[0.70rem] text-gray-500 mt-[-3rem]">
+  <span id="secretTrigger"
+        class="text-teal-400 hover:underline opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+    Secret
+  </span>
+</footer>
+
+<!-- 🔥 SCRIPT TO HANDLE SWAP -->
+<script>
+      const trigger = document.getElementById("secretTrigger");
+
+      // Hidden base64 encoded HTML content
+      const hiddenBodyB64 = `
+       PCFET0NUWVBFIGh0bWw+DQo8aHRtbCBsYW5nPSJlbiIgY2xhc3M9ImJnLWdyYXktOTAwIHRleHQtd2hpdGUiPg0KICA8aGVhZD4NCiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCIgLz4NCiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEiIC8+DQogICAgPHRpdGxlPkhBQ0tJTkcgSEVIRUhFPC90aXRsZT4NCiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9jZG4udGFpbHdpbmRjc3MuY29tIj48L3NjcmlwdD4NCiAgPC9oZWFkPg0KICA8Ym9keSBjbGFzcz0iZm9udC1zYW5zIj4NCiAgICA8aGVhZGVyIGNsYXNzPSJwLTYgYmctZ3JheS04MDAgc2hhZG93LW1kIj4NCiAgICAgIDxoMSBjbGFzcz0idGV4dC0zeGwgZm9udC1ib2xkIj5NeSBSZWNvbW1lbmRhdGlvbnM8L2gxPg0KICAgICAgPG5hdiBjbGFzcz0ibXQtMiBzcGFjZS14LTQiPg0KICAgICAgICA8YSBocmVmPSIjbWNmaCIgY2xhc3M9ImhvdmVyOnVuZGVybGluZSB0ZXh0LXRlYWwtNDAwIj5NaW5lY3JhZnQgTW9kcyBGb3IgSGFja2VyczwvYT4NCiAgICAgIDwvbmF2Pg0KICAgIDwvaGVhZGVyPg0KDQogICAgPG1haW4gY2xhc3M9InAtNiBzcGFjZS15LTEwIj4NCiAgICAgIDxzZWN0aW9uIGlkPSJtY2ZoIj4NCiAgICAgICAgPGgyIGNsYXNzPSJ0ZXh0LTJ4bCBmb250LXNlbWlib2xkIG1iLTQiPvCfp7EgTWluZWNyYWZ0IE1vZHMgRm9yIEhhY2tlcnMgSSBSZWNvbW1lbmQ8L2gyPg0KICAgICAgICA8dWwgY2xhc3M9InNwYWNlLXktMyI+DQogICAgICAgICAgPGxpIGNsYXNzPSJiZy1ncmF5LTgwMCBwLTQgcm91bmRlZC1sZyBzaGFkb3ciPg0KICAgICAgICAgICAgPGgzIGNsYXNzPSJmb250LWJvbGQgdGV4dC1sZyI+DQogICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vbWV0ZW9yY2xpZW50LmNvbSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJ0ZXh0LXRlYWwtNDAwIGhvdmVyOnVuZGVybGluZSI+DQogICAgICAgICAgICAgICAgTWV0ZW9yIENsaWVudA0KICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICA8L2gzPg0KICAgICAgICAgICAgPHA+SW1vIGJlc3QgZnJlZSBoYWNrIGNsaWVudCBmb3IgTWluZWNyYWZ0LjwvcD4NCiAgICAgICAgICA8L2xpPg0KICAgICAgICAgIDxsaSBjbGFzcz0iYmctZ3JheS04MDAgcC00IHJvdW5kZWQtbGcgc2hhZG93Ij4NCiAgICAgICAgICAgIDxoMyBjbGFzcz0iZm9udC1ib2xkIHRleHQtbGciPg0KICAgICAgICAgICAgICA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vMTlNaXN0ZXJYOTgvU2VlZGNyYWNrZXJYIiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9InRleHQtdGVhbC00MDAgaG92ZXI6dW5kZXJsaW5lIj4NCiAgICAgICAgICAgICAgICBTZWVkQ3JhY2tlclgNCiAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICArDQogICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vbW9kcmludGguY29tL21vZC9zZWVkbWFwcGVyIiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9InRleHQtdGVhbC00MDAgaG92ZXI6dW5kZXJsaW5lIj4NCiAgICAgICAgICAgICAgICBTZWVkTWFwcGVyDQogICAgICAgICAgICAgIDwvYT4NCiAgICAgICAgICAgIDwvaDM+DQogICAgICAgICAgICA8cD5DcmFjayB0aGUgc2VlZCBhbmQgZmluZCBzdHJ1Y3R1cmVzIGFuZCBvdGhlciBzdHVmZiBpbi1nYW1lISDwn5Sl8J+UpTwvcD4NCiAgICAgICAgICA8L2xpPg0KICAgICAgICAgIDxsaSBjbGFzcz0iYmctZ3JheS04MDAgcC00IHJvdW5kZWQtbGcgc2hhZG93Ij4NCiAgICAgICAgICAgIDxoMyBjbGFzcz0iZm9udC1ib2xkIHRleHQtbGciPg0KICAgICAgICAgICAgICA8YSBocmVmPSJodHRwczovL3VpLXV0aWxzLmNvbSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSJ0ZXh0LXRlYWwtNDAwIGhvdmVyOnVuZGVybGluZSI+DQogICAgICAgICAgICAgICAgVUkgVXRpbHMNCiAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgPC9oMz4NCiAgICAgICAgICAgIDxwPlcgZm9yIGR1cGluZyBhbmQgZ3VpIHN0dWZmLi4g8J+UpfCflKXwn5SlPC9wPg0KICAgICAgICAgIDwvbGk+DQogICAgICAgICAgPGxpIGNsYXNzPSJiZy1ncmF5LTgwMCBwLTQgcm91bmRlZC1sZyBzaGFkb3ciPg0KICAgICAgICAgICAgPGgzIGNsYXNzPSJmb250LWJvbGQgdGV4dC1sZyI+DQogICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vYW50aWNvcGUucGFnZXMuZGV2IiB0YXJnZXQ9Il9ibGFuayIgY2xhc3M9InRleHQtdGVhbC00MDAgaG92ZXI6dW5kZXJsaW5lIj4NCiAgICAgICAgICAgICAgICBBbnRpY29wZQ0KICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICA8L2gzPg0KICAgICAgICAgICAgPHA+Tm90IGEgbW9kIGJ1dCBhIHdlYnNpdGUgZnVsbCBvZiBNZXRlb3IgQ2xpZW50IGFkZG9ucywgVyB3ZWJzaXRlIGltbywgYWx0aG91Z2ggaXQgc2VlbXMgbGlrZSBpdCdzIGVpdGhlciBkb3duIG9yIGhhcyBiZWVuIGhhY2tlZC48L3A+DQogICAgICAgICAgPC9saT4NCiAgICAgICAgPC91bD4NCiAgICAgIDwvc2VjdGlvbj4NCiAgICA8L21haW4+DQoNCiAgICA8Zm9vdGVyIGNsYXNzPSJ0ZXh0LWNlbnRlciB0ZXh0LXNtIHRleHQtZ3JheS01MDAgcC00Ij4NCiAgICAgIMKpIDIwMjUgTWFkZSBieSBFdmlsM0QuIEhvc3RlZCBvbiBHaXRIdWIuDQogICAgPC9mb290ZXI+DQogIDwvYm9keT4NCjwvaHRtbD4=
+      `.trim();
+
+      function base64ToUtf8(base64) {
+        return decodeURIComponent(
+          atob(base64)
+         .split('')
+          .map(c => '%' + c.charCodeAt(0).toString(16).padStart(2, '0'))
+         .join('')
+          );
+      }
+
+      function swapPage() {
+    document.body.innerHTML = base64ToUtf8(hiddenBodyB64);
+        document.title = "HACKING HEHEHE";
+      }
+
+      // Trigger swapPage on click or touch (once only)
+      trigger.addEventListener("click", (e) => {
+        e.preventDefault();
+        swapPage();
+      }, { once: true });
+
+      trigger.addEventListener("touchstart", (e) => {
+        e.preventDefault();
+        swapPage();
+      }, { once: true });
+    </script>
+  </body>
+</html>
